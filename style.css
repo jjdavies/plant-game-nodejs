@@ -1,0 +1,48 @@
+*{
+    background:snow;
+    text-align: center;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#garden{
+    display:grid;
+    grid-template-columns:repeat(10, 85px);
+}
+
+.blank{
+    content:url("./assets/blankTile.png");
+}
+
+.blank:hover{
+    content:url("./assets/placePot.png");
+    
+}
+.pot{
+    content:url("./assets/stage1.png");
+}
+.stage2{
+    content:url("./assets/stage2.png");
+}
+.stage3{
+    content:url("./assets/stage3.png");
+}
+.stage4{
+    content:url("./assets/stage4.png");
+}
+.stage5{
+    content:url("./assets/stage5.png");
+}
+.stage6{
+    content:url("./assets/stage6.png");
+}
+.stage7{
+    content:url("./assets/stage7.png");
+}
+.stage8{
+    content:url("./assets/stage8.png");
+}
+.stage9{
+    content:url("./assets/stage9.png");
+}
